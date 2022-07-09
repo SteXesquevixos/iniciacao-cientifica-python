@@ -8,7 +8,7 @@ ansiog_prob = np.array([1.0, 0.36, 0.47, 0.48, 0.45, 0.29, 0.47, 0.48, 0.50, 0.5
 ansiol_prob = np.array([1.0, 0.37, 0.49, 0.50, 0.49, 0.44, 0.48, 0.49, 0.49, 0.60, 1.0])
 controle_prob = np.array([1.0, 0.32, 0.46, 0.45, 0.46, 0.30, 0.42, 0.48, 0.49, 0.55, 1.0])
 
-iteracoes = 100
+iteracoes = 500
 
 ansiog_passos = np.zeros((11, iteracoes))
 ansiol_passos = np.zeros((11, iteracoes))
